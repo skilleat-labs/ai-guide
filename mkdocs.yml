@@ -1,0 +1,79 @@
+site_name: AI로 내 업무 문서, 오늘 끝낸다
+site_description: KMI 생성형AI 기반 업무 혁신 실습 가이드
+site_author: 김누리
+site_url: https://skilleat-labs.github.io/ai-guide/
+
+theme:
+  name: material
+  language: ko
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: 다크 모드로 전환
+    - scheme: slate
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: 라이트 모드로 전환
+  font:
+    text: Noto Sans KR
+    code: JetBrains Mono
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+    - content.tabs.link
+    - toc.follow
+  icon:
+    repo: fontawesome/brands/github
+
+nav:
+  - 홈: index.md
+  - 1교시 · AI 잘 쓰는 법:
+    - 개요 & 준비: session1/index.md
+    - 4칸 공식 실습: session1/practice.md
+    - 환경설정 가이드: session1/settings.md
+  - 2교시 · 무료 도구 + 직무별 실습:
+    - 개요 & ChatGPT 무료 기능: session2/index.md
+    - 직무별 실습 가이드: session2/practice.md
+  - 3교시 · 노션 사용법:
+    - 개요 & 노션 기초: session3/index.md
+    - AI 문서 → 노션 실습: session3/practice.md
+  - 프롬프트 꿀팁 모음: tips/index.md
+
+plugins:
+  - search:
+      lang: ja
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      title: 목차
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/skilleat-labs/ai-guide

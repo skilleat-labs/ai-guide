@@ -48,6 +48,7 @@ nav:
   - 3교시 · 노션 사용법:
     - 개요 & 노션 기초: session3/index.md
     - AI 문서 → 노션 실습: session3/practice.md
+    - 노션 완전 정복 가이드: session3/notion-tips.md
   - 프롬프트 꿀팁 모음: tips/index.md
 
 plugins:

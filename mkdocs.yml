@@ -1,5 +1,5 @@
-site_name: AI로 내 업무 문서, 오늘 끝낸다
-site_description: KMI 생성형AI 기반 업무 혁신 실습 가이드
+site_name: KMI 생성형AI 실무 교육 가이드
+site_description: KMI 생성형AI 기반 업무 혁신 실습 가이드 (DAY 1 + DAY 2)
 site_author: 김누리
 site_url: https://skilleat-labs.github.io/ai-guide/
 
@@ -38,18 +38,31 @@ theme:
 
 nav:
   - 홈: index.md
-  - 1교시 · AI 잘 쓰는 법:
-    - 개요 & 준비: session1/index.md
-    - 4칸 공식 실습: session1/practice.md
-    - 환경설정 가이드: session1/settings.md
-  - 2교시 · 무료 도구 + 직무별 실습:
-    - 개요 & ChatGPT 무료 기능: session2/index.md
-    - 직무별 실습 가이드: session2/practice.md
-  - 3교시 · 노션 사용법:
-    - 개요 & 노션 기초: session3/index.md
-    - AI 문서 → 노션 실습: session3/practice.md
-    - 노션 완전 정복 가이드: session3/notion-tips.md
-  - 프롬프트 꿀팁 모음: tips/index.md
+  - "DAY 1 · 글·문서·노션":
+    - 1일차 홈: index.md
+    - 1교시 · AI 잘 쓰는 법:
+      - 개요 & 준비: session1/index.md
+      - 4칸 공식 실습: session1/practice.md
+      - 환경설정 가이드: session1/settings.md
+    - 2교시 · 무료 도구 + 직무별 실습:
+      - 개요 & ChatGPT 무료 기능: session2/index.md
+      - 직무별 실습 가이드: session2/practice.md
+    - 3교시 · 노션 사용법:
+      - 개요 & 노션 기초: session3/index.md
+      - AI 문서 → 노션 실습: session3/practice.md
+      - 노션 완전 정복 가이드: session3/notion-tips.md
+    - 프롬프트 꿀팁 모음: tips/index.md
+  - "DAY 2 · 이미지·비주얼·노션 DB":
+    - 2일차 홈 & 오늘의 흐름: day2/index.md
+    - 1교시 · 이미지 입문:
+      - 개요 & 이미지 4요소: day2/session4/index.md
+      - 실습 가이드: day2/session4/practice.md
+    - 2교시 · 실전 이미지:
+      - 개요 & 인포그래픽: day2/session5/index.md
+      - 실습 가이드: day2/session5/practice.md
+    - 3교시 · 노션 DB:
+      - 개요 & 갤러리 뷰: day2/session6/index.md
+      - 실습 가이드: day2/session6/practice.md
 
 plugins:
   - search:

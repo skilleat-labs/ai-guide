@@ -63,6 +63,7 @@ nav:
     - 3교시 · 노션 DB:
       - 개요 & 갤러리 뷰: day2/session6/index.md
       - 실습 가이드: day2/session6/practice.md
+    - 이미지 잘 뽑는 법 총정리: day2/image-tips.md
 
 plugins:
   - search:
